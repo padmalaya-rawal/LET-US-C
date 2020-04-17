@@ -20,6 +20,6 @@ void result(int a,int b,int c,int d,int e,float *sum,float *avg,float *sd)
 {
 	*sum= a+b+c+d+e;
 	*avg= *sum/5;
-	*sd = sqrt((a*a + b*b + c*c + d*d + e*e + (5*(*avg) * (*avg)) - 10 * (*avg)*(*sum))/25);
+	*sd = sqrt((a*a + b*b + c*c + d*d + e*e + (5*(*avg) * (*avg)) - 2 * (*avg)*(*sum))/5);
 }
 	
